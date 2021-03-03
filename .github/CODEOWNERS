@@ -3,4 +3,15 @@
 
 # Estos propietarios serán los propietarios predeterminados para todo en # el repositorio. 
 # A menos que una coincidencia posterior tenga prioridad, se le solicitará # revisión a # @global-owner1 y @global-owner2 cuando alguien abra una solicitud de extracción.
-*       adrian.cervera.san.sebastian@everis.com
+* @everis-damm-barmanager
+
+# El patrón `{directorio}/*` coincidirá con archivos como
+# `{directorio}/getting-started.md` pero no con otros archivos anidados como
+# `{directorio}/build-app/troubleshooting.md`.
+src/* @everis-damm-barmanager
+
+docs/* @everis-damm-barmanager/everis-barmanager-arquitecture
+
+config/* @everis-damm-barmanager/everis-barmanager-arquitecture
+
+Jenkinsfile/* @everis-damm-barmanager/everis-barmanager-arquitecture
