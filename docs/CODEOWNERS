@@ -9,6 +9,9 @@
 # `{directorio}/getting-started.md` pero no con otros archivos anidados como
 # `{directorio}/build-app/troubleshooting.md`.
 src/* @everis-damm-barmanager
+
 docs/* @everis-damm-barmanager/everis-barmanager-arquitecture
+
 config/* @everis-damm-barmanager/everis-barmanager-arquitecture
+
 Jenkinsfile/* @everis-damm-barmanager/everis-barmanager-arquitecture
